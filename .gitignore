@@ -1,0 +1,30 @@
+.DS_Store
+.vscode
+.idea
+
+.config*.json
+ad_filtering_config.json
+ad_filtering_config_dev.json
+
+.nyc_output
+.scannerwork
+coverage
+dump.rdb
+
+npm-debug*
+node_modules/*
+dist/*
+tmp/*
+dev/*
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+
+# Docker
+docker-compose.yml
+
+# Infra
+infra/*

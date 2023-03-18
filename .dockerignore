@@ -1,0 +1,22 @@
+### Editor ###
+**/.vscode
+**/.idea
+
+### macos ###
+**/.DS_Store
+
+### Git ###
+**/.git
+**/.gitignore
+
+### Node ###
+**/node_modules
+
+### Docker Data ###
+Dockerfile
+
+### Deploy Script ###
+**/deploy
+
+### Infra ###
+infra
