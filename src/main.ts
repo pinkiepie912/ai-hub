@@ -21,7 +21,7 @@ const bootstrap = async (): Promise<void> => {
       .setTitle('AI-hub')
       .setDescription('AI-hub api server')
       .setVersion('0.1.0')
-      .addTag('AI-hum')
+      .addTag('AI-hub')
       .addBearerAuth()
       .build();
 

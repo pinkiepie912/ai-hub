@@ -4,6 +4,7 @@ import { ConfigModule } from './config/config.module';
 import { ConfigService } from './config/config.service';
 import { TypeormConfigType } from './config/config.type';
 import { RequestLoggerMiddleware } from './middlewares/logger';
+import { UserModule } from './user/user.module';
 
 @Module({
   imports: [
@@ -20,6 +21,7 @@ import { RequestLoggerMiddleware } from './middlewares/logger';
         });
       },
     }),
+    UserModule,
   ],
 })
 export class AppModule {
