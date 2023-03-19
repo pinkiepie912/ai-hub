@@ -9,6 +9,9 @@ export class User extends BaseEntity {
   @Column({ type: 'varchar', unique: true, length: 64, nullable: false })
   email: string;
 
+  @Column({ type: 'varchar', length: 32 })
+  name: string;
+
   @Column({ type: 'timestamp', nullable: false })
   registeredAt: Date;
 
